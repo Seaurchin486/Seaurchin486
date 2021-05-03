@@ -1,0 +1,89 @@
+@charset "utf-8"
+*{}
+
+header{
+	height: 52px;
+	border-bottom: 2px #d5d5d5;
+
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #333;
+	height: 52px;
+}
+ul{
+	overflow: hidden;
+	display: block;
+	margin: 0;
+	padding: 0px 20px;
+
+	position: absolute;
+    right: 0;
+
+}
+ul:after {
+    content: "";
+    clear: left;
+    display: block;
+}
+
+li{
+	float: left;
+	list-style: none;
+	font-family: "宋体";
+	font-size: 25px;
+	margin: 5px 5px;
+	padding: 4px;
+	border: 2px solid;
+
+	background-color: #aaa;
+}
+
+a{
+	text-decoration: none;
+	color: #000;		
+}
+li a{
+  position: relative;
+  top: -offset;
+  display: block;
+}
+
+.aline {
+	clear: both;
+    background-color:#555;
+    height:1px;
+}
+
+
+section{
+	display: block;
+	height: 850px;
+	/*background-color: gray;*/
+	border: 2px solid #444;
+}
+
+.shouye-img{
+	background: url(../img/snake.gif) no-repeat center;
+	background-size:auto 100%;
+}
+
+
+p{
+	margin: 0px;
+}
+
+
+footer{
+	width:100%;
+	background-color: #353535;
+}
+
+footer div a p{
+	font-size: 14px;
+	color: #939393;
+
+}
