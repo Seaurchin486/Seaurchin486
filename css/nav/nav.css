@@ -1,0 +1,22 @@
+nav {
+    position: fixed;
+	left: 1vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+li{
+	list-style: none;
+	font-family: "宋体";
+	font-size: 25px;
+	margin: 5px;
+	padding: 4px;
+	border: 2px solid;
+	text-align: center;
+	color: whitesmoke;
+}
+
+li a{
+	text-decoration: none;	
+	color: inherit;
+}

@@ -1,0 +1,17 @@
+
+#home {
+	display: block;
+	height: 100vh;
+	border: 2px solid #444;
+}
+/* section {
+	display: block;
+	height: 100vh;
+	border: 2px solid #444;
+} */
+
+.homebg_img{
+	background: url(https://desktopography.net/wp-content/uploads/2020/08/bg1.jpg) no-repeat center;
+	background-size: cover;
+}
+
